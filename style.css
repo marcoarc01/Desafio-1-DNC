@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    font-family: "Inter";
+}
+
+.grid{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#top{
+    background-color: #303030;
+    background-size: 100%;
+    color: white;
+    padding-top: 9%;
+    padding-bottom: 7%;
+}
+
+
+#top h1{
+    font-size: 50px;
+    margin-left: 3%;
+}
+
+#top p{
+    font-size: 15px;
+    margin-left: 3%;
+    margin-top: 7px;
+    font-weight: 600;
+}
+
+#info{
+    background-color:#F9F9F9;
+    place-content: center;
+    gap: 15%;
+}
+
+#info h1{
+    margin-top: 20%;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#info p{
+    margin-bottom: 20%;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#center{
+    margin: 5% 5% 5% 7%;
+}
+
+#centerText {
+    margin-top: 25%;
+}
+
+#centerText h1{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#centerText p{
+    font-weight: 300;
+    font-size: 22px;
+    margin-top: 6%;
+}
+
+#centerIMG{
+    margin-left: 3%;
+
+}
+
+#forms{
+    background-color: #303030;
+}
+
+#forms h1{
+    margin-top: 5%;
+    color: white;
+    font-size: 30px;
+}
+
+.formsInput{
+    margin-top: 7%;
+    width: 450px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    
+}
+
+#formsButton{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #C07212;
+    cursor: pointer;
+}
